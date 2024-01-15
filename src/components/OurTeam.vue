@@ -63,9 +63,9 @@ export default defineComponent({
         {
           name: 'Michal Magula',
           role: 'Scrum Master & Team Leader',
-          imageUrl: 'img/no-user-image.jpg',
-          linkedinUrl: '',
-          instagramUrl: '',
+          imageUrl: 'img/michal.jpeg',
+          linkedinUrl: 'https://www.linkedin.com/in/michal-magula-1714b71b4/',
+          instagramUrl: 'https://www.instagram.com/michal.magula/',
         },
         {
           name: 'Tamara Janotková',
