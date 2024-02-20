@@ -28,18 +28,22 @@
   </div>
 
   <OurTeam></OurTeam>
+
+  <TranscriptsList></TranscriptsList>
 </template>
 
 <script lang="ts">
 import {defineComponent} from 'vue';
 import OurTeam from "@/components/OurTeam.vue";
 import HeroSection from "@/components/HeroSection.vue";
+import TranscriptsList from "@/components/TranscriptsList.vue";
 
 export default defineComponent({
   name: 'HomeView',
   components: {
     HeroSection,
-    OurTeam
+    OurTeam,
+    TranscriptsList
   }
 });
 </script>

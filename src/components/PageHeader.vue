@@ -121,7 +121,7 @@ export default defineComponent({
       navigation: [
         {name: 'About ReCo', href: '/#about'},
         {name: 'Our Team', href: '/#our-team'},
-        {name: 'Transcripts', href: '/transcripts'},
+        {name: 'Transcripts', href: '/#transcripts'},
       ],
       mobileMenuOpen: false
     }
