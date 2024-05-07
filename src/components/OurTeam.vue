@@ -12,9 +12,9 @@
         </p>
       </div>
       <ul role="list"
-          class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-8">
+          class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:mx-0 lg:max-w-none lg:gap-8">
         <li v-for="person in people" :key="person.name" class="rounded-2xl bg-gray-800 px-8 py-10">
-          <img class="mx-auto w-full aspect-square rounded-full" :src="person.imageUrl" alt=""/>
+          <img class="mx-auto w-full aspect-square rounded-full" :src="person.imageUrl" alt="" style="object-fit: cover; object-position: 50% 25%; image-rendering: smooth"/>
           <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-white">{{ person.name }}</h3>
           <p class="text-sm leading-6 text-gray-400">{{ person.role }}</p>
           <ul role="list" class="mt-6 flex justify-center gap-x-6">
@@ -61,51 +61,58 @@ export default defineComponent({
           instagramUrl: '',
         },
         {
+          name: 'Jozef Juraško',
+          role: 'Research Consultant',
+          imageUrl: 'img/joz.jpg',
+          linkedinUrl: '',
+          instagramUrl: '',
+        },
+        {
           name: 'Michal Magula',
           role: 'Scrum Master & Team Leader',
-          imageUrl: 'img/michal.jpeg',
+          imageUrl: 'img/mic.jpg',
           linkedinUrl: 'https://www.linkedin.com/in/michal-magula-1714b71b4/',
           instagramUrl: 'https://www.instagram.com/michal.magula/',
         },
         {
           name: 'Tamara Janotková',
           role: 'Hardware Designer & Developer',
-          imageUrl: 'img/no-user-image.jpg',
+          imageUrl: 'img/tam.jpg',
           linkedinUrl: '',
           instagramUrl: '',
         },
         {
           name: 'Vanesa Milonová',
           role: 'Backend Developer',
-          imageUrl: 'img/no-user-image.jpg',
+          imageUrl: 'img/van.jpg',
           linkedinUrl: '',
           instagramUrl: '',
         },
         {
           name: 'Norbert Vígh',
           role: 'Lead Frontend Developer',
-          imageUrl: 'img/norbert.jpg',
+          imageUrl: 'img/nor.jpg',
           linkedinUrl: 'https://www.linkedin.com/in/norbert-v%C3%ADgh-711a7417b/',
           instagramUrl: 'https://www.instagram.com/norb._/',
         },
         {
           name: 'Eduard Žňava',
           role: 'UI/UX Designer, Frontend Developer',
-          imageUrl: 'img/eduard.jpeg',
+          imageUrl: 'img/edu.jpg',
           linkedinUrl: 'https://www.linkedin.com/in/eduard-%C5%BE%C5%88ava-131776246/',
           instagramUrl: 'https://www.instagram.com/znavaeduard/',
         },
         {
           name: 'Jakub Hrnčár',
           role: 'Hardware Designer & Developer',
-          imageUrl: 'img/no-user-image.jpg',
+          imageUrl: 'img/jak.jpg',
           linkedinUrl: '',
           instagramUrl: '',
         },
         {
           name: 'Matyás Neilinger',
           role: 'Backend Developer',
-          imageUrl: 'img/no-user-image.jpg',
+          imageUrl: 'img/mat.jpg',
           linkedinUrl: '',
           instagramUrl: '',
         },
