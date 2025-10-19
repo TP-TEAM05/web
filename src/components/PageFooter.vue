@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gray-900 w-full h-16 flex items-center justify-center text-gray-500">
     <p class="text-sm">
-      &copy; 2023/2024 FIIT STUBA Team 12. @ReCoFIIT All rights reserved.
+      &copy; 2023/2024 FIIT STUBA Team 12. @TP-TEAM05 All rights reserved.
     </p>
   </footer>
 </template>
